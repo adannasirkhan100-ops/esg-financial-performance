@@ -8,7 +8,7 @@ static web app.
 
 **Live app:** _add your Netlify URL here after deploying (see Deployment
 below)_
-brilliant-pegasus-0ae122.netlify.app
+**Live app:** [brilliant-pegasus-0ae122.netlify.app](https://brilliant-pegasus-0ae122.netlify.app)
 ---
 
 ## 1. Project overview
