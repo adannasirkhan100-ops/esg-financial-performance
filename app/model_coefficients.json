@@ -1,0 +1,98 @@
+{
+  "target": "ProfitMargin",
+  "intercept": 10.644343138536122,
+  "coefficients": {
+    "log_skewed__Revenue": -1.051793457202671,
+    "log_skewed__MarketCap": 6.866455570349266,
+    "log_skewed__CarbonEmissions": -4.316446375624295,
+    "log_skewed__WaterUsage": -1.5529755617621372,
+    "log_skewed__EnergyConsumption": 1.4574802318919255,
+    "scale_rest__Year": -0.11863171004005747,
+    "scale_rest__GrowthRate": -0.05222273538316502,
+    "scale_rest__ESG_Overall": 0.41592204890458273,
+    "scale_rest__ESG_Environmental": -1.2708710459042902,
+    "scale_rest__ESG_Social": -0.577558966671065,
+    "scale_rest__ESG_Governance": -0.209287674339868,
+    "onehot__Industry_Consumer Goods": 0.8875984982854529,
+    "onehot__Industry_Energy": 1.7587954265503716,
+    "onehot__Industry_Finance": -3.6813509868502687,
+    "onehot__Industry_Healthcare": 2.0323170462368307,
+    "onehot__Industry_Manufacturing": 0.012756401810411705,
+    "onehot__Industry_Retail": -4.683876969350992,
+    "onehot__Industry_Technology": 0.6365951448558829,
+    "onehot__Industry_Transportation": -1.474519689509177,
+    "onehot__Industry_Utilities": 4.511685127982367,
+    "onehot__Region_Africa": -0.2719912692671465,
+    "onehot__Region_Asia": 0.27390795823850206,
+    "onehot__Region_Europe": -0.6247975121521413,
+    "onehot__Region_Latin America": -0.03615270501637597,
+    "onehot__Region_Middle East": 0.17594915659132235,
+    "onehot__Region_North America": -0.12986074584952728,
+    "onehot__Region_Oceania": 0.6129451174567718
+  },
+  "log_skewed_cols": [
+    "Revenue",
+    "MarketCap",
+    "CarbonEmissions",
+    "WaterUsage",
+    "EnergyConsumption"
+  ],
+  "log_skewed_mean": [
+    7.654778994191068,
+    8.092327030773218,
+    12.659938082254287,
+    12.139167415538347,
+    14.151153908244497
+  ],
+  "log_skewed_scale": [
+    1.1275254067718916,
+    1.6291448228430918,
+    1.4875325371581312,
+    1.5023658350688056,
+    2.013962694877941
+  ],
+  "scale_rest_cols": [
+    "Year",
+    "GrowthRate",
+    "ESG_Overall",
+    "ESG_Environmental",
+    "ESG_Social",
+    "ESG_Governance"
+  ],
+  "scale_rest_mean": [
+    2020.5,
+    4.6543375,
+    55.358625,
+    57.065712500000004,
+    56.549800000000005,
+    52.459537499999996
+  ],
+  "scale_rest_scale": [
+    2.8722813232690143,
+    9.392596216493805,
+    15.864752144593215,
+    26.717645725575146,
+    23.176729761983246,
+    25.465929524289777
+  ],
+  "industry_categories": [
+    "Consumer Goods",
+    "Energy",
+    "Finance",
+    "Healthcare",
+    "Manufacturing",
+    "Retail",
+    "Technology",
+    "Transportation",
+    "Utilities"
+  ],
+  "region_categories": [
+    "Africa",
+    "Asia",
+    "Europe",
+    "Latin America",
+    "Middle East",
+    "North America",
+    "Oceania"
+  ]
+}
